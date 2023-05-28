@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Mask Plugin</title>
+
+    <link type="text/css" rel="stylesheet" href="main.css">
+    
+    <link type="text/css" rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/solid.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Formulário de Cadastro</h1>
+
+        </div>
+        
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nome</label>
+                <input type="text" id="username" placeholder="Digite seu nome"/>
+                <i class="fa-solid fa-exclamation"></i>
+                <i class="fas fa-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+                <div class="form-control">
+                    <label for="CPF">CPF</label>
+                    <input type="text" id="CPF" name="CPF" placeholder="Digite seu CPF"/>
+                    <i class="fa-solid fa-exclamation"></i>
+                    <i class="fas fa-check"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+    
+                <div class="form-control">
+                    <label for="tel">Telefone</label>
+                    <input type="text" id="tel" name="tel" placeholder="Digite seu telefone"/>
+                    <i class="fa-solid fa-exclamation"></i>
+                    <i class="fas fa-check"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+            
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail"/>
+                <i class="fa-solid fa-exclamation"></i>
+                <i class="fas fa-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço"/>
+                <i class="fa-solid fa-exclamation"></i>
+                <i class="fas fa-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="cep">Cep</label>
+                <input type="text" id="cep" name="cep" placeholder="Digite seu cep"/>
+                <i class="fa-solid fa-exclamation"></i>
+                <i class="fas fa-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <button class="botao" type="submit" onsubmit="">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+</html>
